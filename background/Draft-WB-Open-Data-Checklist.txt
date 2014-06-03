@@ -1,0 +1,84 @@
+Draft World Bank Open Data Checklist		
+		
+		"Unless Bank data are disclosable under the Access to Information Policy, and have a clear unit and individual point of contact/owner, they cannot be included in the Open Data Initiative."
+		Access to Information Policy
+1.0		Are the data disclosable under the Access to Information Policy (A2I)?
+1.1		"Are the data excluded from the ""Personal Information"" A2I exception?"
+1.2		"Are the data excluded from the ""ED Communication"" A2I exception?"
+1.3		"Are the data excluded from the ""Board Ethics Committee"" A2I exception?"
+1.4		"Are the data excluded from the ""Attorney-Client Privilege"" A2I exception?"
+1.5		"Are the data excluded from the ""Security & Safety"" A2I exception?"
+1.6		"Are the data excluded from the ""Other Disclosure Regimes"" A2I exception?"
+1.7		"Are the data excluded from the ""Client/Third Party"" A2I exception?"
+1.8		"Are the data excluded from the ""Corporate Administrative"" A2I exception?"
+1.9		"Are the data excluded from the ""Deliberative"" A2I exception?"
+1.1		"Are the data excluded from the ""Financial"" A2I exception?"
+1.11		"Are the data clearly ""owned"" by a Bank unit and individual staff member?"
+		
+		"Open Data requires an ongoing time commitment: at a minimum, ensuring data and metadata are up to date, basic coordination with similar data producers, and answering user queries."
+		Data and Metadata Management
+2.0		Have you checked for similar datasets the Bank already releases?
+2.1		"If there are similar datasets produced by the Bank, are they all clearly differentiated?"
+2.1		Do you have resources to maintain and update the data and metadata once opened?
+2.2		Do you have resources to answer questions from users working with your data?
+2.3		Is there basic metadata associated with the data?
+2.4		Are the primary sources of the data clearly documented and linked back to?
+2.5		Are the methodologies behind any data processing documented?
+2.6		"Is there a ""changelog"" of data updates maintained and published?"
+2.7		Are any map boundaries in or referenced by the dataset? Cartographer's office?
+		
+		"For data and metadata to be technically open, it needs to be available at a minimum, in an editable, electronic format and presented in a usable, well documented structure."
+		Open Data: Technically Open
+3.0		"Is the data available in an editable, standard electronic format? "
+3.1		Is the data available for bulk download in a single file?
+3.2		Is the data available via a documented API?
+3.3		Is the data available at a stable URL?
+		
+		"For data and metadata to be legally open, it needs to be licensed under the Bank's Open Data Terms of use: free for commercial and non-commercial use, requiring attribution"
+		Open Data: Legally Open
+4.0		Does the World Bank have the rights to distribute the data?
+4.1		Are the data already covered by an existing terms of use or license? 
+4.2		"If it is a large dataset, are all parts and versions of it licensed uniformly?"
+4.3		Do we require permission from an external data owner or provider? 
+4.5		Can the data be released under the Open Data Terms of Use?
+		
+		"Users value the quality and usability of World Bank data and while these may vary between datasets, we expect a basic level of usability and quality, along with documentation."
+		Data Quality & Usability
+5.0		Is there a quality process associated with this data and is it published?
+5.1		Is there sufficient documentation with the data for a totally new user?
+5.2		"Has the data been ""test released"" to a group of new users for feedback?"
+5.3		Are the data structured for use and analysis rather then presentation?
+5.4		Are the data considered accurate from the Bank's perspective? 
+5.5		Are the data fairly complete & with good coverage? Documented if not?
+5.6		"Are the data current, relevant and have a planned update schedule?"
+5.7		Are all field and variable names meaningful and documented?
+5.8		Are all numbers/values consistently presented? (e.g. to same accuracy or convention)
+5.9		Are all missing values presented meaningfully / consistently (e.g. with a -)
+		
+		"Engaging with users is a key part of open data - without context, documentation, examples and support it can be difficult for even an experienced user to take advantage of  data"
+		Engagement
+6.0		Is there a clear public point of contact for the data being published?
+6.1		"Are there a few examples of the data being used in context? Graphs, charts, tables etc."
+6.2		Is there an ongoing communications plan for this data?
+6.3		Is it possible for users to provide feedback / comments on the data and get a response?
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

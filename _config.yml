@@ -1,5 +1,6 @@
 exclude:
 - README.md
+- background
 # baseurl:
 # highlighter: pygments
 markdown: kramdown
