@@ -1,0 +1,14 @@
+exclude:
+- README.md
+# baseurl:
+# highlighter: pygments
+markdown: kramdown
+
+# project information
+org_name: tgherzog
+repo_name: wbg-catalog-manual
+suggestion_branch: suggestions
+
+# revision information
+revision: 0.1
+revdate: June, 2014

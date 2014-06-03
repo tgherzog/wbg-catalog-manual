@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<div class='cover'>
+  <div class='cover-inner'>
+    {{content}}
+    <a href='{{site.baseurl}}/report.html' class='enter'>Enter</a>
+    <div class='branding'>
+      <ul class='logos'>
+        <li><span class='wb'>The World Bank</span></li>
+        <li><span class='ds'>Development Seed</span></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script src='site.js'></script>
+<script>
+// Legacy link handling.
+// The cover replaces at index.html what is now under report.html
+$(function() {
+  if (window.location.hash) {
+    window.location.replace('{{site.baseurl}}/report.html' + window.location.hash);
+  }
+});
+</script>
