@@ -3,6 +3,7 @@ exclude:
 - background
 # baseurl:
 # highlighter: pygments
+root_url: http://tgherzog.github.io/wbg-catalog-manual
 markdown: kramdown
 
 # project information
