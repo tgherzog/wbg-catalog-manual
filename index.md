@@ -9,7 +9,7 @@ layout: hero
 * Objectives
 * Who should read
 
-# Frequently Asked Questions #
+# Essentials #
 
 ### What is "Open Data"?
 
