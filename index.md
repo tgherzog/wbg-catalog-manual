@@ -5,6 +5,8 @@ layout: hero
   
 # Overview #
 
+TODO 
+
 * Intro
 * Objectives
 * Who should read
@@ -47,7 +49,7 @@ assets are often hosted on the intranet and available only to staff.
 
 ### What is the World Bank's Open Data Catalog?
 
-The Open Data Catalog is a listing of all datasets and data resources available from the World Bank as Open Data. All datasets listed in the Catalog are explicitly
+The [Open Data Catalog][cat] is a listing of all datasets and data resources available from the World Bank as Open Data. All datasets listed in the Catalog are explicitly
 subject to the Bank's [Open Data Terms of Use][tou]. For users, the Catalog is intended to provide a "one-stop shop" for all of the Bank's Open Data. It includes search
 features, complete and consistent metadata, and direct links to data files and tools.
 
@@ -76,23 +78,51 @@ These are all included in the Open Data catalog either as collections or as indi
 
 ### What is the relationship between the Microdata catalog and the Open Data catalog?
 
+*Version 2*
+
 ### What data formats are acceptable for the Catalog? ### {#data-formats}
 
-Electronic data formats that are technically open
-include comma- and tab-separated text files (CSV and TSV), and open standards such as XML or JSON for more flexible or sophisticated structures. Excel documents (XLS and 
-XLSX) are considered a second-best alternative since it is a proprietary format, although the ubiquity of XLS-compatible tools helps to ensure accessibility.
+The goal of Open Data is to keep barriers to data access and use to an absolute minimum. Accordingly, acceptable formats are those that are machine-readable and
+(preferably) non-proprietary. That is, users should be able to access and manipulate the data without the need for commercial software.
 
+Whenever possible, data should be provided in a single (i.e., bulk) file to facilitate downloading and management, as opposed to discrete, smaller files.
 
-Talk about acceptable formats and the preference for a single "raw" file
+Acceptable formats, particularly for structured data, include:
+
+* Comma- and tab-separated text files (CSV or TSV)
+* [XML](http://en.wikipedia.org/wiki/XML), particularly in cases where data structures are multi-dimensional or vary throughout the document
+* [JSON](http://en.wikipedia.org/wiki/JSON), (Javascript Object Notation), which is easy for internet apps to read
+* [KML](https://developers.google.com/kml/) and [GeoJSON](http://geojson.org/) which, respectively, are extensions of XML and JSON designed for geo-spatial data
+
+These formats are generally not considered open:
+
+* PDF documents, which are not well suited for structured data
+* Word documents (.doc and .docx), are also not well suited for structured data, and are also proprietary
+* Other proprietary formats such as STATA, SPSS and SAS
+* Image formats such as JPEG, TIFF and PNG, which may be use to display charts or tables, but prevent access to the underlying data
+
+**Excel/Spreadsheet Documents**
+
+Excel documents (.xls and .xlsx) are considered a second-best alternative since Excel is a proprietary format, although the ubiquity of
+XLS-compatible tools helps to ensure accessibility. It is usually possible to import an Excel document into Google Drive, for example. Compared to
+CSV files, Excel documents also have the advantage of being able to include metadata for individual cells, rows an columns, or as a separate sheet. However,
+Excel documents can be problematic if they contain formulas or macros, or if they are very large.
+
 
 ### Who do I contact about putting my data in the Catalog?
 
-You should contact a member of the Data Administration & Quality (DAQ) team, which supervises, manages, and supports the Catalog:
+The Data Administration & Quality (DAQ) team within DECDG supervises, manages, and supports the Catalog. Contacts are as follows:
 
-Name               | Email                            | Extension |
------------------- | ----------                       | --------: |
-Will Prince        | <wprince@worldbank.org>          | 31706     
-who else?          |                                  | 
+**Shelley Fu** (primary contact)  
+Senior Information Officer  
+<sfu@worldbank.org>  
+Extension: 3-3885
+
+**Will Prince** (alternate contact)  
+Senior Information Officer  
+<wprince@worldbank.org>  
+Extension: 3-1076
+
 
 ### What information does DECDG need from me to get started?
 
@@ -109,7 +139,7 @@ There are two forms that must be completed to begin the process of adding your d
 
 In addition, the DAQ team will need:
 
-* Your data, or information about how to access the data
+* The data itself, or information about how to access the data
 * The Bank unit sponsoring the data
 * The staff member serving as point of contact. Typically this person is an expert on the dataset's subject matter.
 * Any additional relevant background information, such as supporting documents, methodologies, etc.
@@ -153,16 +183,22 @@ another solution) will take longer to configure, load, test and verify. As with 
 
 ### Who manages the actual data files once they are listed in the data catalog?
 
-This is the question about "where the data live"
+TODO: This is the question about "where the data live"
 
 ### What is an API and does my data need one?
 
 *Version 2*
 
-### What ongoing obligations are there to maintain the dataset after it is published?
+### What ongoing obligations are there to maintain a dataset after it is published?
 
-* User support - you should respond to questions about the data, which come in through the support portal and are coordinated by DECDG
-* DECDG monitors the data catalog to flag datasets that are "stale," typically on a quarterly basis.
+The sponsoring Bank unit is expected to keep the dataset up to date, according to the dataset's work plan. The dataset's metadata contains fields that indicate
+the frequency and schedule for updates: for instance, weekly, monthly, quarterly, annually, or some other regular or irregular schedule. Several datasets in the catalog
+are not expected to be updated and are so indicated in the metadata. Sponsoring units should notify the DAQ team when updates are available or when online files have
+been modified (including corrections) so that the Catalog can reflect those changes. The DAQ team also routinely monitors datasets to identify
+which datasets are out of date, and contacts the sponsoring units to revise the metadata and data files accordingly. 
+
+User support for the Catalog is managed by the Client Service and Communications (CSC) team. Bank units are expected to respond to user questions about their datasets
+when forwarded by CSC. 
 
 
 # Access to Information Policy # {#A2I}
@@ -180,3 +216,4 @@ Related working documents are [here](https://github.com/{{ site.org_name }}/{{ s
 
 [tou]: http://data.worldbank.org/summary-terms-of-use
 [a2i]: http://go.worldbank.org/TRCDVYJ440
+[cat]: http://datacatalog.worldbank.org
