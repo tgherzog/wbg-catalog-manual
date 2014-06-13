@@ -3,17 +3,15 @@ title: World Bank Open Data Catalog Guidebook
 layout: hero
 ---
   
-# Overview #
+# Introduction #
 
-TODO 
+This manual documents the [World Bank Open Data Catalog][cat] and its administration. It also provides guidance and background for Bank staff
+that possess or administer data that could or should be considered [open data][#definition] under the Bank's [Access to Information Policy][a2i].
 
-* Intro
-* Objectives
-* Who should read
 
 # Essentials #
 
-### What is "Open Data"?
+### What is "Open Data"? ### {#definition}
 
 "Open Data" has a very precise meaning. According to the [Open Definition](http://opendefinition.org) *(italics added):*
 
@@ -108,6 +106,8 @@ XLS-compatible tools helps to ensure accessibility. It is usually possible to im
 CSV files, Excel documents also have the advantage of being able to include metadata for individual cells, rows an columns, or as a separate sheet. However,
 Excel documents can be problematic if they contain formulas or macros, or if they are very large.
 
+The Open Data Handbook has [more background on file formats](http://opendatahandbook.org/en/appendices/file-formats.html).
+
 
 ### Who do I contact about putting my data in the Catalog?
 
@@ -147,12 +147,12 @@ In addition, the DAQ team will need:
 
 ### What happens next?
 
-After addressing any preliminary questions and issues, the DAQ team conducts a preliminary review of the submitted information, and follows up with the sponsoring
+After addressing any preliminary questions and issues, the DAQ team conducts a preliminary review of the submitted information, and follows up with the sponsor
 unit to clarify any details. The DAQ team will also do a quick comparison to data already in the catalog to confirm the data have not already been published, and if they
 have may suggest alternative strategies.
 
-Then, the DAQ team and the sponsoring unit typically also discuss technical options for data hosting (making the data publicly available) such as 
-[DataBank](http://databank.worldbank.org), Development Data Platform, [DataBox](https://databox.worldbank.org), bulk download files, APIs, dashboards, etc.,
+Then, the DAQ team and the sponsor unit typically also discuss technical options for data hosting (making the data publicly available) such as 
+[DataBank][databank], Development Data Platform, [DataBox[databox], bulk download files, APIs, dashboards, etc.,
 and add other staff to the discussion as required. If further development work is required, the two team agree on a work plan and next steps.
 
 
@@ -183,7 +183,15 @@ another solution) will take longer to configure, load, test and verify. As with 
 
 ### Who manages the actual data files once they are listed in the data catalog?
 
-TODO: This is the question about "where the data live"
+Data management can follow many different arrangements depending on the dataset and the preferences of the sponsor unit. For instance:
+
+* Data files can be hosted on a public file server, website or data interface administered by the sponsor unit. In this case, data management is the responsibility
+  of the sponsor unit, and the Catalog will simply link to that server.
+* Data files can be hosted on a server administered by DECDG. In this case, the sponsor unit cooperates with DECDG to update the data file as necessary.
+* Data files can be hosted in a data interface administered by DECDG, such as [DataBank][databank] or [DataBox][databox]. In this case, DECDG may administer the platform
+  as well as the data, or give data administration access to the sponsor unit.
+* Data files may reside within a separate catalog, such as [World Bank Finances](https://finances.worldbank.org). In this case, the administrator of the catalog will
+  typically manage the data, and updates will be synchronized with the Catalog automatically.
 
 ### What is an API and does my data need one?
 
@@ -191,11 +199,11 @@ TODO: This is the question about "where the data live"
 
 ### What ongoing obligations are there to maintain a dataset after it is published?
 
-The sponsoring Bank unit is expected to keep the dataset up to date, according to the dataset's work plan. The dataset's metadata contains fields that indicate
+The sponsor unit is expected to keep the dataset up to date, according to the dataset's work plan. The dataset's metadata contains fields that indicate
 the frequency and schedule for updates: for instance, weekly, monthly, quarterly, annually, or some other regular or irregular schedule. Several datasets in the catalog
-are not expected to be updated and are so indicated in the metadata. Sponsoring units should notify the DAQ team when updates are available or when online files have
+are not expected to be updated and are so indicated in the metadata. Sponsorunits should notify the DAQ team when updates are available or when online files have
 been modified (including corrections) so that the Catalog can reflect those changes. The DAQ team also routinely monitors datasets to identify
-which datasets are out of date, and contacts the sponsoring units to revise the metadata and data files accordingly. 
+which datasets are out of date, and contacts the sponsor units to revise the metadata and data files accordingly. 
 
 User support for the Catalog is managed by the Client Service and Communications (CSC) team. Bank units are expected to respond to user questions about their datasets
 when forwarded by CSC. 
@@ -217,3 +225,5 @@ Related working documents are [here](https://github.com/{{ site.org_name }}/{{ s
 [tou]: http://data.worldbank.org/summary-terms-of-use
 [a2i]: http://go.worldbank.org/TRCDVYJ440
 [cat]: http://datacatalog.worldbank.org
+[databank]: http://databank.worldbank.org
+[databox]:  https://databox.worldbank.org
