@@ -42,10 +42,6 @@ In addition, data must be **publicly available,** meaning accessible on a public
 assets are often hosted on the intranet and available only to staff.
 
 
-*[FBS]: fee-based service
-*[RAS]: resimbursable advisory services
-
-
 ### What is the World Bank's Open Data Catalog?
 
 The [Open Data Catalog][cat] is a listing of all datasets and data resources available from the World Bank as Open Data. All datasets listed in the Catalog are explicitly
@@ -224,11 +220,57 @@ when forwarded by CSC.
 
 # Access to Information Policy # {#A2I}
 
+**Placeholder text: needs review by TKB**
+
+Datasets are subject to the Bank's [Access to Information Policy][a2i]. Effectively, that means that public access is allowed to any data in the World Bank's 
+position that is not subject to at least one of the exceptions listed in the A2I Policy. The A2I Policy lists the following exceptions (see section 2A of the A2I policy):
+
+#### A2I Exceptions
+
+1. Personal information considered private or confidential
+2. Communications of ED offices
+3. Proceedings of the Ethics Committee
+4. Attorney client privilege
+5. Information that would jeopardize security and safety
+6. Restricted under separate disclosure regimes, such as IEG, IP or INT VP
+7. Information provided by member countries or third parties in confidence
+8. Corporate administration
+9. Certain deliberative information 
+10. Certain financial transaction information
+
+It is conceivable that any of these conditions could apply to a particular dataset. Hence, familiarity with the terms of the exceptions is strongly suggested.
+However, some circumstances arise more frequently than do others:
+
+* **Personal information.** Datasets may contain information that could be used to identify an individual or business unit and hence pose a risk to her or his
+  right to privacy. For instance, survey data (i.e. microdata) is often not classified as Open Data unless anonymization techniques are employed to mitigate
+  the chance for personal identification, or sample sizes are sufficiently large enough that risk of identification is small. Similarly, datasets aggregated from
+  smaller samples should be reviewed to ensure that outlier records don't pose a risk of breaching privacy.
+
+*  **Security and safety.** Similarly, datasets that contain information that might jeoparidize the life, health or safety of any individual or the environment
+   are typically not classified as Open Data. This might include, for example, the locations of facilities that provide services that might make them the subject
+   of political or terrorist attacks.
+
+* **Information provided by member countries or third parties.** The guidelines included in Section 3 of the A2I policy provide guidance for disclosure of information
+  (including datasets) provided by member countries and other parties. As applied to datasets, this exception would exclude data provided to the Bank in confidence,
+  data that is restricted by the country's own policies, and data prepared by the Bank for a client country under an FBS or RAS agreement.
+  
+  As a practical matter, any
+  dataset in which other parties have a proprietary stake requires the written consent of all parties for it to be released as Open Data, *unless* the parties
+  each have an Open Data policy that permits the data to be so released (e.g., the United Nations). This includes, for instance, datasets produced by the IMF, the OECD,
+  the International Energy Agency (IEA) and other organizations that do not (yet) have an Open Data policy.
+  For datasets provided to the Bank under vendor agreements, it is
+  important that the vendor contract specify that works produced under the contract are considered the property of the World Bank, as provided in the Bank's
+  [General Conditions of Contract](http://go.worldbank.org/3OeY65JQ60).
+
+* **Corporate administration?** interestingly, the A2I policy says that procurement data is typically excluded...
+
 <div class="todo">
 
 # Determining If Your Data Can Be Opened 
 
 *Version 2*
+
+This section could incorporate the OD checklist
 
 </div>
 
@@ -240,7 +282,11 @@ when forwarded by CSC.
 Related working documents are [here](https://github.com/{{ site.org_name }}/{{ site.repo_name }}/tree/master/background)
 
 [tou]: http://data.worldbank.org/summary-terms-of-use
-[a2i]: http://go.worldbank.org/TRCDVYJ440
+[a2i]: http://documents.worldbank.org/curated/en/2013/07/17952994/world-bank-policy-access-information
 [cat]: http://datacatalog.worldbank.org
 [databank]: http://databank.worldbank.org
 [databox]:  https://databox.worldbank.org
+
+*[FBS]: fee-based service
+*[RAS]: resimbursable advisory services
+
