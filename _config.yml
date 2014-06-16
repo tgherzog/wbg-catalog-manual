@@ -5,7 +5,8 @@ exclude:
 # highlighter: pygments
 root_url: http://tgherzog.github.io/wbg-catalog-manual
 markdown: kramdown
-title: Open Data Catalog Handbook
+title: WBG Open Data Catalog Handbook
+short_title: WBG Catalog
 
 # project information
 org_name: tgherzog

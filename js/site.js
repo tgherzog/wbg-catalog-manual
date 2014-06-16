@@ -1,5 +1,6 @@
 
 $(document).ready(function() {
+  return; // disable
   $('#page-content h1').each(function() {
 	var id = $(this).attr('id');
 	var t  = $(this).text();
@@ -16,4 +17,10 @@ $(document).ready(function() {
 
   $('#navmenu li').first().addClass('first');
   $('#navmenu li').last().addClass('last');
+});
+
+$(document).ready(function() {
+  $('#showall').click(function() {
+    $('.todo').toggleClass('showall');
+  });
 });

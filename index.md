@@ -2,6 +2,7 @@
 title: World Bank Open Data Catalog Guidebook
 layout: basic
 ---
+{::options parse_block_html="true" /}
   
 # Introduction #
 
@@ -58,6 +59,8 @@ The Bank has several additional catalogs for specific kinds of data, such as
 These are all included in the Open Data catalog either as collections or as individual datasets.
 
 
+<div class="todo">
+
 ### What kinds of data are eligible to include in the Open Data Catalog?
 
 *Version 2*
@@ -77,6 +80,8 @@ These are all included in the Open Data catalog either as collections or as indi
 ### What is the relationship between the Microdata catalog and the Open Data catalog?
 
 *Version 2*
+
+</div>
 
 ### What data formats are acceptable for the Catalog? ### {#data-formats}
 
@@ -173,6 +178,8 @@ Lead time depends on how much work is needed to prepare the data for publication
 files in machine-readable format. These typically take about 5 business days to publish. Datasets that are hosted in one of the online query tools (Databank, Databox or
 another solution) will take longer to configure, load, test and verify. As with any project, longer lead times are preferable, and advance notice is appreciated.
 
+<div class="todo">
+
 ### What is "data quality" and how is quality assessed?
 
 *Version 2*
@@ -180,6 +187,8 @@ another solution) will take longer to configure, load, test and verify. As with 
 ### Who is responsible for ensuring data quality?
 
 *Version 2*
+
+</div>
 
 ### Who manages the actual data files once they are listed in the data catalog?
 
@@ -193,9 +202,13 @@ Data management can follow many different arrangements depending on the dataset 
 * Data files may reside within a separate catalog, such as [World Bank Finances](https://finances.worldbank.org). In this case, the administrator of the catalog will
   typically manage the data, and updates will be synchronized with the Catalog automatically.
 
+<div class="todo">
+
 ### What is an API and does my data need one?
 
 *Version 2*
+
+</div>
 
 ### What ongoing obligations are there to maintain a dataset after it is published?
 
@@ -211,9 +224,13 @@ when forwarded by CSC.
 
 # Access to Information Policy # {#A2I}
 
+<div class="todo">
+
 # Determining If Your Data Can Be Opened 
 
 *Version 2*
+
+</div>
 
 
 ----

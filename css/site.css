@@ -2,3 +2,52 @@ body {
   /* adjust for nav header */
   padding-top: 50px;
 }
+
+.navbar-header {
+  width: 100%;
+}
+
+.navbar label {
+  color: #e6e6e6;
+  padding-top: 15px;
+  font-weight: normal;
+}
+
+.navbar input {
+  margin-right: 6px;
+}
+
+.navbar-right {
+  float: right !important;
+}
+
+.todo {
+  display: none;
+}
+
+.todo.showall {
+  display: block;
+}
+
+.todo h3 {
+  color: #aaa;
+}
+
+@media (max-width: 320px) and (orientation: portrait) {
+  .navbar-brand {
+    font-size: 16px;
+  }
+}
+
+.visible-skinny {
+  display: none;
+}
+
+@media (max-width: 520px) {
+  .visible-skinny {
+    display: block !important;
+  }
+  .hidden-skinny {
+    display: none !important;
+  }
+}
