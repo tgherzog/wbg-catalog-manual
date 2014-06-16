@@ -7,7 +7,7 @@ layout: basic
 # Introduction #
 
 This manual documents the [World Bank Open Data Catalog][cat] and its administration. It also provides guidance and background for Bank staff
-that possess or administer data that could or should be considered [open data][#definition] under the Bank's [Access to Information Policy][a2i].
+that possess or administer data that could or should be considered [open data][#definition] under the Bank's [Access to Information Policy][a2i]. In particular, it provides an overview of the steps required and process involved in making a dataset publicly available and listed on the [Open Data Catalog][cat]
 
 
 # Essentials #
@@ -31,7 +31,7 @@ There are two general criteria for data to be open:
 1. The data must be **legally** open, meaning that it is placed in the public domain or under liberal terms of use with minimal restrictions. 
    The Bank's [data terms of use][tou] provides the legal framework for data opened by the Bank. 
 
-   "Open" data correpond to the "public" document classification under the Bank's [Access to Information Policy](http://go.worldbank.org/2OFOAU7PR0). Hence,
+   "Open" data correspond to the "public" document classification under the Bank's [Access to Information Policy](http://go.worldbank.org/2OFOAU7PR0). Hence,
    open data must not be subject to any of the exceptions identified in the A2I Policy. Data prepared jointly with partners, obtained from  member countries/borrowers,
    or pursuant to FBS or RAS agreements require written consent of the other parties. See [Access to Information](#A2I).
 
@@ -153,8 +153,8 @@ unit to clarify any details. The DAQ team will also do a quick comparison to dat
 have may suggest alternative strategies.
 
 Then, the DAQ team and the sponsor unit typically also discuss technical options for data hosting (making the data publicly available) such as 
-[DataBank][databank], Development Data Platform, [DataBox[databox], bulk download files, APIs, dashboards, etc.,
-and add other staff to the discussion as required. If further development work is required, the two team agree on a work plan and next steps.
+[DataBank][databank], Development Data Platform, [DataBox][databox], bulk download files, APIs, dashboards, etc.,
+and add other staff to the discussion as required. If further development work is required, the two teams agree on a work plan and next steps.
 
 
 Depending on the hosting solution (as identified at the initial consultation), the DAQ team will provide technical
@@ -210,7 +210,7 @@ Data management can follow many different arrangements depending on the dataset 
 
 The sponsor unit is expected to keep the dataset up to date, according to the dataset's work plan. The dataset's metadata contains fields that indicate
 the frequency and schedule for updates: for instance, weekly, monthly, quarterly, annually, or some other regular or irregular schedule. Several datasets in the catalog
-are not expected to be updated and are so indicated in the metadata. Sponsorunits should notify the DAQ team when updates are available or when online files have
+are not expected to be updated and are so indicated in the metadata. Sponsor units should notify the DAQ team when updates are available or when online files have
 been modified (including corrections) so that the Catalog can reflect those changes. The DAQ team also routinely monitors datasets to identify
 which datasets are out of date, and contacts the sponsor units to revise the metadata and data files accordingly. 
 
@@ -220,10 +220,9 @@ when forwarded by CSC.
 
 # Access to Information Policy # {#A2I}
 
-**Placeholder text: needs review by TKB**
+Datasets are subject to the Bank's [Access to Information Policy][a2i]. In principle, this means any data can be made publicly available as long as it is not subject to any of the exceptions listed in the A2I Policy. 
 
-Datasets are subject to the Bank's [Access to Information Policy][a2i]. Effectively, that means that public access is allowed to any data in the World Bank's 
-position that is not subject to at least one of the exceptions listed in the A2I Policy. The A2I Policy lists the following exceptions (see section 2A of the A2I policy):
+The A2I Policy lists the following exceptions (see section 2A of the A2I policy):
 
 #### A2I Exceptions
 
@@ -239,6 +238,7 @@ position that is not subject to at least one of the exceptions listed in the A2I
 10. Certain financial transaction information
 
 It is conceivable that any of these conditions could apply to a particular dataset. Hence, familiarity with the terms of the exceptions is strongly suggested.
+
 However, some circumstances arise more frequently than do others:
 
 * **Personal information.** Datasets may contain information that could be used to identify an individual or business unit and hence pose a risk to her or his
@@ -246,7 +246,7 @@ However, some circumstances arise more frequently than do others:
   the chance for personal identification, or sample sizes are sufficiently large enough that risk of identification is small. Similarly, datasets aggregated from
   smaller samples should be reviewed to ensure that outlier records don't pose a risk of breaching privacy.
 
-*  **Security and safety.** Similarly, datasets that contain information that might jeoparidize the life, health or safety of any individual or the environment
+*  **Security and safety.** Similarly, datasets that contain information that might jeopardize the life, health or safety of any individual or the environment
    are typically not classified as Open Data. This might include, for example, the locations of facilities that provide services that might make them the subject
    of political or terrorist attacks.
 
@@ -254,10 +254,7 @@ However, some circumstances arise more frequently than do others:
   (including datasets) provided by member countries and other parties. As applied to datasets, this exception would exclude data provided to the Bank in confidence,
   data that is restricted by the country's own policies, and data prepared by the Bank for a client country under an FBS or RAS agreement.
   
-  As a practical matter, any
-  dataset in which other parties have a proprietary stake requires the written consent of all parties for it to be released as Open Data, *unless* the parties
-  each have an Open Data policy that permits the data to be so released (e.g., the United Nations). This includes, for instance, datasets produced by the IMF, the OECD,
-  the International Energy Agency (IEA) and other organizations that do not (yet) have an Open Data policy.
+  As a practical matter, any  dataset in which other parties have a proprietary stake requires the written consent of all parties for it to be released as Open Data, *unless* the parties  each have an Open Data policy that permits the data to be so released (e.g., the United Nations). This includes, for instance, datasets produced by the IMF, the OECD,  the International Energy Agency (IEA) and other organizations that do not (yet) have an Open Data policy.
   For datasets provided to the Bank under vendor agreements, it is
   important that the vendor contract specify that works produced under the contract are considered the property of the World Bank, as provided in the Bank's
   [General Conditions of Contract](http://go.worldbank.org/3OeY65JQ60).
@@ -270,7 +267,7 @@ However, some circumstances arise more frequently than do others:
 
 *Version 2*
 
-This section could incorporate the OD checklist
+This section could incorporate an open data checklist summarizing the document above for easy reference. 
 
 </div>
 
