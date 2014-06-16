@@ -251,7 +251,7 @@ However, some circumstances arise more frequently than do others:
    of political or terrorist attacks.
 
 * **Information provided by member countries or third parties.** The guidelines included in Section 3 of the A2I policy provide guidance for disclosure of information
-  (including datasets) provided by member countries and other parties. As applied to datasets, this exception would exclude data provided to the Bank in confidence,
+  (including datasets) provided by member countries and other parties. As applied to datasets, this exception might exclude data provided to the Bank in confidence,
   data that is restricted by the country's own policies, and data prepared by the Bank for a client country under an FBS or RAS agreement.
   
   As a practical matter, any
