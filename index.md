@@ -1,6 +1,6 @@
 ---
 title: World Bank Open Data Catalog Guidebook
-layout: hero
+layout: basic
 ---
   
 # Introduction #
