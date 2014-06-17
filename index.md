@@ -7,7 +7,7 @@ layout: basic
 # Introduction #
 
 This manual documents the [World Bank Open Data Catalog][cat] and its administration. It also provides guidance and background for Bank staff
-that possess or administer data that could or should be considered [open data][#definition] under the Bank's [Access to Information Policy][a2i]. In particular, it provides an overview of the steps required and process involved in making a dataset publicly available and listed on the [Open Data Catalog][cat]
+that possess or administer data that could or should be considered [open data](#definition) under the Bank's [Access to Information Policy][a2i]. In particular, it provides an overview of the steps required and process involved in making a dataset publicly available and listed on the [Open Data Catalog][cat].
 
 
 # Essentials #
@@ -271,12 +271,6 @@ This section could incorporate an open data checklist summarizing the document a
 
 </div>
 
-
-----
-
-## Other Stuff ##
-
-Related working documents are [here](https://github.com/{{ site.org_name }}/{{ site.repo_name }}/tree/master/background)
 
 [tou]: http://data.worldbank.org/summary-terms-of-use
 [a2i]: http://documents.worldbank.org/curated/en/2013/07/17952994/world-bank-policy-access-information
