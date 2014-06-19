@@ -128,17 +128,12 @@ The [Open Knowledge Foundcations's Open Data Handbook](http://opendatahandbook.o
 
 ### Who do I contact about putting my data in the Catalog?
 
-The Data Administration & Quality (DAQ) team within DECDG supervises, manages, and supports the Catalog. Contacts are as follows:
+The Data Administration & Quality (DAQ) team within DECDG supervises and  manages the Catalog: 
 
-**Shelley Fu** (primary contact)  
-Senior Information Officer  
-<sfu@worldbank.org>  
-Extension: 3-3885
+* **[Shelley Fu](mailto:sfu@worldbank.org)**, Senior Information Officer (primary contact)  
+* **[Will Prince](mailto:wprince@worldbank.org)**, Senior Information Officer (alternate contact)  
 
-**Will Prince** (alternate contact)  
-Senior Information Officer  
-<wprince@worldbank.org>  
-Extension: 3-1076
+To ask questions or begin the catalog submission process, send an email to <data@worldbank.org>.
 
 
 ### What information does DECDG need from me to get started?
