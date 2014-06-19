@@ -64,7 +64,7 @@ The Bank has several additional catalogs for specific kinds of data, such as
 [Research Datasets](http://go.worldbank.org/D353HLMTO0) to name a few.
 These are all included in the Open Data catalog either as collections or as individual datasets. Each catalog is managed by its own team with its own
 procedures, and specializes in a particular type of data (as suggested by its name).
-From the user's perspective however, all catalogs listed in the Open Data catalog are available under the same [Terms of Use][tou] from the user's perspctive.
+From the user's perspective however, all catalogs listed in the Open Data catalog are available under the same [Terms of Use][tou] from the user's perspective.
 
 
 <div class="todo">
@@ -123,7 +123,7 @@ XLS-compatible tools helps to ensure accessibility. It is usually possible to im
 CSV files, Excel documents also have the advantage of being able to include metadata for individual cells, rows and columns, or as a separate sheet. However,
 Excel documents can be problematic if they contain formulas or macros, or if they are very large.
 
-The [Open Knowledge Foundcations's Open Data Handbook](http://opendatahandbook.org/en/appendices/file-formats.html) has more background on file formats.
+The [Open Knowledge Foundations's Open Data Handbook](http://opendatahandbook.org/en/appendices/file-formats.html) has more background on file formats.
 
 
 ### Who do I contact about putting my data in the Catalog?
@@ -223,7 +223,7 @@ been modified (including corrections) so that the Catalog can reflect those chan
 which datasets are out of date, and contacts the sponsor units to revise the metadata and data files accordingly. The DAQ team marks datasets as "archived" (but still
 publicly available) if they have no update schedule or if the sponsor unit does not respond to repeated contact attempts.
 
-User support for the Catalog is managed by the Client Service and Communications (CSC) team via the [data help desk website(http://datahelpdesk.worldbank.org)
+User support for the Catalog is managed by the Client Service and Communications (CSC) team via the [data help desk website](http://datahelpdesk.worldbank.org)
 or <data@worldbank.org>. Bank units are expected to respond to user questions about their datasets when forwarded by CSC. 
 
 
