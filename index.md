@@ -9,6 +9,12 @@ layout: basic
 This manual documents the [World Bank Open Data Catalog][cat] and its administration. It also provides guidance and background for Bank staff members
 that possess or administer data that could or should be considered [open data](#definition) under the Bank's [Access to Information Policy][a2i]. In particular, it provides an overview of the steps required and process involved in making a dataset publicly available and listed on the [Open Data Catalog][cat].
 
+The World Bank Group's Open Data Initiative was [launched in April, 2010](http://go.worldbank.org/CA21J2H0A0) as an effort
+to increase transparency and accountability, expand the impact of its data resources, and to catalyze the creation of new
+applications and solutions to address poverty and development. The Open Data Initiative has grown substantially from a modest
+set of development indicators to include substantially more development data along with data on Bank projects, operations, research, finances, and more.
+The Open Data Initiative is an evolving effort; as such, it is expected that the processes and guidance included in this document will continue
+to mature and improve over time.
 
 # Essentials #
 
@@ -20,9 +26,6 @@ that possess or administer data that could or should be considered [open data](#
 >at most, to the requirement to attribute *(provide proper citations)* and/or share-alike
 >*(redistribute under the same terms and conditions)*."
 
-The World Bank Group's Open Data Initiative was [launched in April, 2010](http://go.worldbank.org/CA21J2H0A0) as an effort
-to increase transparency and accountability, expand the impact of its data resources, and to catalyze the creation of new
-applications and solutions to address poverty and development.
 
 ### What requirements are there for making my data "open"?
 
@@ -53,11 +56,15 @@ include an [exceptions list of restricted datasets](http://www.worldbank.org/ter
 redistribution or reuse. The exceptions list is employed as a "second best" alternative in rare cases where fully open access is not possible because of third party
 policies.
 
+### What is the relationship between the Open Data catalog and other Bank-operated data catalogs?
+
 The Bank has several additional catalogs for specific kinds of data, such as
 [Projects & Operations](http://projects.worldbank.org),
 [World Bank Finances](https://finances.worldbank.org), and
 [Research Datasets](http://go.worldbank.org/D353HLMTO0) to name a few.
-These are all included in the Open Data catalog either as collections or as individual datasets.
+These are all included in the Open Data catalog either as collections or as individual datasets. Each catalog is managed by its own team with its own
+procedures, and specializes in a particular type of data (as suggested by its name).
+From the user's perspective however, all catalogs listed in the Open Data catalog are available under the same [Terms of Use][tou] from the user's perspctive.
 
 
 <div class="todo">
@@ -78,11 +85,15 @@ These are all included in the Open Data catalog either as collections or as indi
 
 *Version 2*
 
-### What is the relationship between the Microdata catalog and the Open Data catalog?
-
-*Version 2*
-
 </div>
+
+### What is the difference between the Microdata catalog and the Open Data catalog?
+
+The [Bank's Microdata catalog](http://microdata.worldbank.org) is designed specifically for microdata collected from surveys of individuals, households
+and business entities. The Microdata catalog has search and data storage features that are specifically designed to support microdata. The microdata catalog also
+has its own [terms of use](http://microdata.worldbank.org/index.php/terms-of-use) that includes seven  access policies ranging from "open" to "no data access" in
+order to support different licensing regimes. Only datasets classified as "open" would be included in the Open Data Catalog.
+
 
 ### What data formats are acceptable for the Catalog? ### {#data-formats}
 
@@ -263,7 +274,6 @@ However, some circumstances arise more frequently than do others:
   important that the vendor contract specify that works produced under the contract are considered the property of the World Bank, as provided in the Bank's
   [General Conditions of Contract](http://go.worldbank.org/3OeY65JQ60).
 
-* **Corporate administration?** interestingly, the A2I policy says that procurement data is typically excluded...
 
 <div class="todo">
 
