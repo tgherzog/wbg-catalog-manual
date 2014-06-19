@@ -7,7 +7,7 @@ layout: basic
 # Introduction #
 
 This manual documents the [World Bank Open Data Catalog][cat] and its administration. It also provides guidance and background for Bank staff members
-that possess or administer data that could or should be considered [open data](#definition) under the Bank's [Access to Information Policy][a2i]. In particular, it provides an overview of the steps required and process involved in making a dataset publicly available anticipated listed on the [Open Data Catalog][cat].
+that possess or administer data that could or should be considered [open data](#definition) under the Bank's [Access to Information Policy][a2i]. In particular, it provides an overview of the steps required and process involved in making a dataset publicly available and listed on the [Open Data Catalog][cat].
 
 The World Bank Group's Open Data Initiative was [launched in April, 2010](http://go.worldbank.org/CA21J2H0A0) as an effort
 to increase transparency and accountability, expand the impact of its data resources, and to catalyze the creation of new
