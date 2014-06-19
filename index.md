@@ -7,7 +7,7 @@ layout: basic
 # Introduction #
 
 This manual documents the [World Bank Open Data Catalog][cat] and its administration. It also provides guidance and background for Bank staff members
-that possess or administer data that could or should be considered [open data](#definition) under the Bank's [Access to Information Policy][a2i]. In particular, it provides an overview of the steps required and process involved in making a dataset publicly available and listed on the [Open Data Catalog][cat].
+that possess or administer data that could or should be considered [open data](#definition) under the Bank's [Access to Information Policy][a2i]. In particular, it provides an overview of the steps required and process involved in making a dataset publicly available anticipated listed on the [Open Data Catalog][cat].
 
 
 # Essentials #
@@ -223,7 +223,7 @@ or <data@worldbank.org>. Bank units are expected to respond to user questions ab
 
 # Access to Information Policy # {#A2I}
 
-Datasets are subject to the Bank's [Access to Information Policy][a2i]. In principle, this means any data can be made publicly available as long as it is not subject to any of the exceptions listed in the A2I Policy. 
+Datasets are subject to the Bank's [Access to Information Policy][a2i]. In principle, this means any data can be made publicly available as long as it is not subject to any of the exceptions listed in the A2I Policy. This section intends to offer a high level interpretation of how data needs to be treated by the policy, recognizing that the policy and guidance around releasing data are still evolving. 
 
 The A2I Policy lists the following exceptions (see section 2A of the A2I policy):
 
