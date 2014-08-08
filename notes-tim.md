@@ -15,4 +15,4 @@ duplicate work and we lack a uniform presentation of metadata
 * Assumes there is a single download for every dataset (though it may be query/bulk/api), doesn't address cases where data
   lives in multiple files [like this](http://wbi.worldbank.org/boost/country/rio-grande-do-sul-brazil).
 
-
+* License exceptions aren't clearly identified in the catalog. If a dataset (or indicator) entails an exception, it should say so in the data catalog.
