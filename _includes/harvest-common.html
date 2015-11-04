@@ -1,0 +1,6 @@
+<td class="valid">{{ elem.valid }}
+{% if elem.domain %}<em>Must be one of:</em>{% for i in elem.domain %}<br>{{ i }}{% endfor %}{% endif %}</td>
+</td>
+<td class="notes">{{ elem.notes }}</td>
+<!-- <td>{{ elem.xpath }}</td> -->
+</tr>

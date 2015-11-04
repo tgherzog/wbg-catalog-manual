@@ -1,0 +1,15 @@
+<thead>
+<tr>
+<th class="name">Name</th>
+<th class="valid">Validation</th>
+<th class="notes">Notes</th>
+<!-- <th>XPath</th> -->
+</tr>
+</thead>
+<tbody>
+{% for elem in site.data.harvesting %}{% if elem.class == class %}
+<tr>
+<td class="name">{{ elem.name | escape }}</td>
+{% include harvest-common.html %}
+{% endif %}{% endfor %}
+</tbody>

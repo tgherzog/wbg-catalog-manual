@@ -1,0 +1,248 @@
+-
+  class: _standard
+  name: ID
+  valid: Automatic
+  xpath: item / view::id
+  notes: The dataset identifier, i.e. "kdui-wcs3"
+-
+  class: _standard
+  name: Name
+  valid: Automatic
+  xpath: item / view::name
+  notes: The dataset name
+-
+  class: _standard
+  name: Description
+  valid: Required
+  xpath: item / view::description
+  notes: The dataset description field
+-
+  class: _standard
+  name: First Publication Date
+  valid: Automatic
+  xpath: item / view::createdAt
+  notes: Dataset's creation datestamp
+-
+  class: _standard
+  name: Last Revision Date
+  valid: Automatic
+  xpath: item / view::viewLastModified
+  notes: Dataset's last update datestamp. Note that the harvester automatically sets this field to "current," signifying that the dataset is always
+         up to date, if <em>Update Frequency</em> is "daily" or "weekly"
+-
+  class: _standard
+  name: Popularity
+  valid: Automatic
+  xpath: item / view::viewCount
+  notes: This fields uses the user view count as a rough proxy for "popularity," which is used for sorting
+
+- 
+  class: Licensing and Attribution
+  name: Data Provided By
+  valid: Optional
+  notes: Mapped to the VPU field in the data catalog (internal use only)
+  xpath: item / view::viewLastModified
+- 
+  class: Licensing and Attribution
+  name: Source Link
+  valid: Optional
+  notes: Mapped to the Source URL field in the data catalog
+  xpath: item / view::attributionLink
+-
+  class: Scope
+  name: Country
+  valid: Optional
+  notes: Scopes the dataset to one or more specific countries, if applicable (maps to "List of Countries" in the data catalog)
+  xpath: item / view / metadata / custom_fields / Scope::Country
+-
+  class: Additional Information
+  name: Type
+  xpath: item / view / metadata / custom_fields / Additional-Information::Type
+  valid: Required
+  domain:
+    - Cross sectional
+    - Geospatial
+    - Survey(Microdata)
+    - Time series
+    - Transactions
+  notes: Note missing space in "Survey(Microdata)"
+-
+  class: Additional Information
+  name: Source
+  xpath: item / view / metadata / custom_fields / Additional-Information::Source
+  valid: Required
+  domain:
+    - Official National Source
+    - Other International Organization
+    - Private Source
+    - Public Source
+    - Research
+    - World Bank Group
+-
+  class: Additional Information
+  name: Language
+  xpath: item / view / metadata / custom_fields / Additional-Information::Language
+  valid: Optional
+  notes: e.g., English, Chinese
+-
+  class: Additional Information
+  name: Periodicity
+  valid: Required if Type is "Time Series"
+  domain:
+    - Day
+    - Week
+    - Month
+    - Quarter
+    - Annual
+  notes: For time series data, Periodicity indicates the time duration of each record in the dataset. This does not refer to how often the dataset is updated.
+  xpath: item / view / metadata / custom_fields / Additional-Information::Periodicity
+-
+  class: Additional Information
+  name: Coverage
+  valid: Required if Type is "Time Series"
+  notes: "e.g., \"1981-2010\". Can also be calculated dynamically: see also <em>Range Column</em>"
+  xpath: item / view / metadata / custom_fields / Additional-Information::Coverage
+-
+  class: Additional Information
+  name: Economy Coverage
+  valid: Required
+  notes: Use a semicolon (;) to separate multiple values. Note that "World" indicates that the dataset includes a global economy aggregate (confirm with Ram)
+  domain:
+    - East Asia & Pacific
+    - Europe & Central Asia
+    - High income
+    - IBRD
+    - IDA
+    - Latin America & Caribbean
+    - Low or Middle Income
+    - Middle East & North Africa
+    - South Asia
+    - Sub Saharan Africa
+    - World
+  xpath: item / view / metadata / custom_fields / Additional-Information::Economy-Coverage
+-
+  class: Additional Information
+  name: Granularity
+  valid: Required
+  domain:
+    - Regional
+    - National
+    - Sub-national
+    - City or metropolitan
+    - Business or firm
+    - Household
+    - Project
+    - Other
+  xpath: item / view / metadata / custom_fields / Additional-Information::Granularity
+-
+  class: Additional Information
+  name: Update Frequency
+  valid: Required
+  domain:
+    - Daily
+    - Weekly
+    - Monthly
+    - Quarterly
+    - Triannually
+    - Biannually
+    - Annually
+    - Annual +
+    - No Fixed Schedule
+    - No Further Updates Planned
+    - Archived
+  notes: "\"Archived\" is considered a synonym for \"No Further Updates Planned\""
+  xpath: item / view / metadata / custom_fields / Additional-Information::Update-Frequency
+-
+  class: Additional Information
+  name: Update Schedule
+  valid: Required when <em>Update Frequency</em> is something besides "Daily," "Weekly," "No Fixed Schedule" or "Archived"
+  xpath: item / view / metadata / custom_fields / Additional-Information::Update-Schedule
+  notes: Text field provides more detail as to the update schedule of the dataset, e.g., "15th of the month"
+
+-
+  class: Additional Information
+  name: General Access Options
+  xpath: item / view / metadata / custom_fields / Additional-Information::General-Access-Options
+  valid: Required
+  domain:
+    - Query tool
+    - API
+    - Mobile app
+    - Bulk download
+  notes: Maps to the <em>Access Options</em> field in the data catalog, and indicates the methods by which the dataset can be accessed. Socrata
+         natively supports "Query tool," "API" and "Bulk download." "Mobile App" may be specified on a per-dataset basis. Use a semicolon (;) to
+         separate multiple values.
+-
+  class: Additional Information
+  name: Range Column
+  xpath: item / view / metadata / custom_fields / Additional-Information::Range-Column
+  valid: Optional
+  notes: Specifies a column name for the time dimension of a time series dataset. If defined, this is used to populate the <em>Coverage</em> field.
+-
+  class: _constant
+  name:  Topics
+  valid: Automatic
+  notes: "\"World Bank Group Projects & Finances\""
+-
+  class: _constant
+  name: Contact Details
+  valid: Automatic
+  notes: "\"wbfinances@worldbank.org\" (displayed publicly)"
+-
+  class: _constant
+  name: Internal Contact Detail
+  valid: Automatic
+  notes: "\"Julia Bezgacheva (jbezgacheva@worldbank.org)\" (used internally)"
+-
+  class: _constant
+  name: Attribution/Citation
+  valid: Automatic
+  notes: "\"World Bank Finances, World Bank Group\""
+-
+  class: _constant
+  name: API 
+  valid: Automatic
+  notes: "\"1\" (used internally)"
+-
+  class: _constant
+  name: API Access URL
+  valid: Automatic
+  notes: "\"http://data.worldbank.org/developers/world-bank-finances\""
+-
+  class: _constant
+  name: Unit
+  valid: Automatic
+  notes: "\"CTRLS\""
+-
+  class: _constant
+  name: Mobile app
+  valid: Automatic
+  notes: semicolon-separated list of URLs to App Store, Google Play, etc. This implies that mobile app URLs are the same
+         for all datasets in a platform.
+
+-
+  class: _calculated
+  name: DetailPageURL
+  valid: Automatic
+  notes: e.g., "https://site.worldbank.org/d/[ID]"
+-
+  class: _calculated
+  name: URL
+  valid: Automatic
+  notes: Same as <em>DetailPageUrl</em> (defines URL when "Query tool" access is specified)
+-
+  class: _calculated
+  name: API Source ID
+  valid: Automatic
+  notes: Same as <em>ID</em> (used internally)
+-
+  class: _calculated
+  name:  Next Expected Update
+  valid: Automatic
+  notes: This is an internally used datestamp that is automatically inferred based on the values of <em>Last Revision Date</em>
+         and <em>Update Frequency</em>. "Annual +" and "No Fixed Schedule" are treated the same as "Annually."
+-
+  class: _calculated
+  name: Bulk download
+  valid: Automatic
+  notes: e.g., "https://site.worldbank.org/api/views/[ID]/rows.csv"
