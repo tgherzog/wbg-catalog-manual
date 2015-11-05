@@ -1,6 +1,7 @@
 <thead>
 <tr>
-<th class="name">Name</th>
+<th class="name">Name (Socrata)</th>
+<th class="catname">Name (Catalog)</th>
 <th class="valid">Validation</th>
 <th class="notes">Notes</th>
 <!-- <th>XPath</th> -->
@@ -9,7 +10,7 @@
 <tbody>
 {% for elem in site.data.harvesting %}{% assign key=elem.class | truncate:1,'' %}{% if key != '_' %}
 <tr>
-<td class="name">{{ elem.class }}: {{ elem.name | escape }}</td>
+<td class="name"><span class="nobreak">{{ elem.class }}:</span> <span class="nobreak">{{ elem.name | escape }}</span></td>
 {% include harvest-common.html %}
 {% endif %}{% endfor %}
 </tbody>

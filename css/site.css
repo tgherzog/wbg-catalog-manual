@@ -48,11 +48,23 @@ table.harvesting {
 }
 
 .harvesting .name {
-  width: 30%;
+  width: 25%;
 }
 
-.harvesting .valid, .harvesting .notes {
+.harvesting .catname {
+  width: 15%;
+}
+
+.harvesting .valid {
+  width: 25%;
+}
+
+.harvesting .notes {
   width: 35%;
+}
+
+.harvesting span.nobreak {
+  white-space: nowrap;
 }
 
 @media (max-width: 320px) and (orientation: portrait) {

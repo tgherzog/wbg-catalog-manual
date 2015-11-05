@@ -10,7 +10,7 @@ At this point the harvester assumes that the target catalog is a Socrata instanc
 
 The table below documents the fields recognized by the harvester:
 
-### Standard Fields ###
+### Standard Socrata Fields ###
 
 <table class="harvesting">
 {% assign class="_standard" %}
