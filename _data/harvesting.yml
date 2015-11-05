@@ -18,20 +18,20 @@
   notes: The dataset description field
 -
   class: _standard
-  name: First Publication Date
+  name: Creation Date
   valid: Automatic
   xpath: item / view::createdAt
-  notes: Dataset's creation datestamp
+  notes: Mapped to <em>First Publication Date</em>
 -
   class: _standard
-  name: Last Revision Date
+  name: Updated Date
   valid: Automatic
   xpath: item / view::viewLastModified
-  notes: Dataset's last update datestamp. Note that the harvester automatically sets this field to "current," signifying that the dataset is always
+  notes: Mapped to <em>Last Revision Date</em>. Note that the harvester automatically sets this field to "current," signifying that the dataset is always
          up to date, if <em>Update Frequency</em> is "daily" or "weekly"
 -
   class: _standard
-  name: Popularity
+  name: Visits
   valid: Automatic
   xpath: item / view::viewCount
   notes: This fields uses the user view count as a rough proxy for "popularity," which is used for sorting
@@ -94,7 +94,9 @@
     - Month
     - Quarter
     - Annual
-  notes: For time series data, Periodicity indicates the time duration of each record in the dataset. This does not refer to how often the dataset is updated.
+  notes: For time series data, Periodicity indicates the time duration of each record in the dataset.
+         This does not refer to how often the dataset is updated.
+         See <em>Update Frequency</em>.
   xpath: item / view / metadata / custom_fields / Additional-Information::Periodicity
 -
   class: Additional Information
@@ -222,14 +224,14 @@
 
 -
   class: _calculated
-  name: DetailPageURL
+  name: Detail Page URL
   valid: Automatic
   notes: e.g., "https://site.worldbank.org/d/[ID]"
 -
   class: _calculated
   name: URL
   valid: Automatic
-  notes: Same as <em>DetailPageUrl</em> (defines URL when "Query tool" access is specified)
+  notes: Same as <em>Detail Page URL</em> (defines URL when "Query tool" access is specified)
 -
   class: _calculated
   name: API Source ID
@@ -239,7 +241,7 @@
   class: _calculated
   name:  Next Expected Update
   valid: Automatic
-  notes: This is an internally used datestamp that is automatically inferred based on the values of <em>Last Revision Date</em>
+  notes: This is an internally used datestamp that is inferred based on the values of <em>Last Revision Date</em>
          and <em>Update Frequency</em>. "Annual +" and "No Fixed Schedule" are treated the same as "Annually."
 -
   class: _calculated
