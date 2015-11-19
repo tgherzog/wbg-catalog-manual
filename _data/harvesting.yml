@@ -1,7 +1,7 @@
 -
   class: _standard
   name: ID
-  catname: ID
+  catname: APISourceID
   valid: Automatic
   xpath: item / view::id
   notes: i.e. "kdui-wcs3"
@@ -202,6 +202,13 @@
   xpath: item / view / metadata / custom_fields / Additional-Information::Range-Column
   valid: Optional
   notes: Specifies a column name for the time dimension of a time series dataset. If defined, this is used to populate the <em>Coverage</em> field.
+-
+  class: _constant
+  name: n/a
+  catname:  ID
+  valid: Automatic
+  notes: Records are numbered incrementally starting at 1001 (other harvest sources will need a different
+         base number to ensure uniqueness)
 -
   class: _constant
   name: n/a
