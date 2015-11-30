@@ -25,7 +25,7 @@ These fields are user-defined in Socrata, and appear in the indicated sections i
 {% include harvest2.html %}
 </table>
 
-### Calulcated Fields ###
+### Calculated Fields ###
 
 These fields are calculated automatically based on other values defined above.
 
