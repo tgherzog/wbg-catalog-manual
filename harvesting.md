@@ -42,3 +42,11 @@ These fields are set to the same value automatically by the harvester.
 {% assign class="_constant" %}
 {% include harvest1.html %}
 </table>
+
+
+### Future Implementation Issues ###
+
+* Mobile app is currently assumed to be the same for all datasets in a source
+* Since Socrata natively provides Query tool, Download and API access, *Access Options* could be hard-coded (treated as constant), or simply check for
+  the "Mobile App" option
+* Source-specific support for alternate constant values

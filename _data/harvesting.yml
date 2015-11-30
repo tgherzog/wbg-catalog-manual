@@ -38,14 +38,6 @@
   valid: Automatic
   xpath: item / view::viewCount
   notes: Used internally for sorting. Visits is a rough proxy for "popularity."
-
-- 
-  class: Licensing and Attribution
-  name: Data Provided By
-  catname: VPU
-  valid: Optional
-  notes: internal use only
-  xpath: item / view::attribution
 - 
   class: Licensing and Attribution
   name: Source Link
@@ -125,7 +117,7 @@
   name: Economy Coverage
   catname: Economy Coverage
   valid: Required
-  notes: Use a semicolon (;) to separate multiple values. Note that "World" indicates that the dataset includes a global economy aggregate (confirm with Ram)
+  notes: Use a semicolon (;) to separate multiple values. Note that "World" indicates that the dataset includes a global economy aggregate
   domain:
     - East Asia & Pacific
     - Europe & Central Asia
@@ -192,9 +184,10 @@
     - API
     - Mobile app
     - Bulk download
-  notes: Maps to the <em>Access Options</em> field in the data catalog, and indicates the methods by which the dataset can be accessed. Socrata
-         natively supports "Query tool," "API" and "Bulk download." "Mobile App" may be specified on a per-dataset basis. Use a semicolon (;) to
-         separate multiple values.
+  notes: Maps to the <em>Access Options</em> field in the data catalog, and indicates the methods by which the dataset can be accessed.
+         Use a semicolon (;) to separate multiple values.
+         In most cases this field should be "Query tool;Bulk download;API" Datasets also available via mobile app should include that
+         value as well.
 -
   class: Additional Information
   name: Range Column
@@ -231,6 +224,12 @@
   class: _constant
   name: n/a
   catname: Attribution/Citation
+  valid: Automatic
+  notes: "\"World Bank Finances, World Bank\""
+-
+  class: _constant
+  name: n/a
+  catname: VPU
   valid: Automatic
   notes: "\"World Bank Finances, World Bank Group\""
 -
